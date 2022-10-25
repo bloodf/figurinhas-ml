@@ -3,7 +3,7 @@ A simple class to manage configuration
 """
 
 
-class Config():
+class Config:
     # files location
     training_dir = "./fwc-album/"
     testing_dir = "./fwc-album/"

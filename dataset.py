@@ -37,8 +37,7 @@ class SiameseNetworkDataset(Dataset):
 
         width, height = (244, 244)
 
-        pathList = []
-        pathList.append((img0_tuple[0], img1_tuple[0], img2_tuple[0]))
+        pathList = [(img0_tuple[0], img1_tuple[0], img2_tuple[0])]
 
         img0 = Image.open(img0_tuple[0]).resize((width, height))
         img1 = Image.open(img1_tuple[0]).resize((width, height))
